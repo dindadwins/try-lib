@@ -65,8 +65,8 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.libproj"
-            artifactId = "dimage"
+            groupId = "com.github.dindadwins"
+            artifactId = "try-lib"
             version = "1.0"
 
             afterEvaluate {
